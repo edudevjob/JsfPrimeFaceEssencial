@@ -1,8 +1,11 @@
 package curso.developer;
 
+import java.util.Date;
+
 public class Pessoa {
 	private String nome;
 	private String sobrenome;
+	private Date datanascimento;
 	
 	public String getNome() {
 		return nome;
@@ -15,6 +18,12 @@ public class Pessoa {
 	}
 	public void setSobrenome(String sobrenome) {
 		this.sobrenome = sobrenome;
+	}
+	public Date getDatanascimento() {
+		return datanascimento;
+	}
+	public void setDatanascimento(Date datanascimento) {
+		this.datanascimento = datanascimento;
 	}
 	
 	
