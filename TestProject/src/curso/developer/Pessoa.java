@@ -7,6 +7,7 @@ public class Pessoa {
 	private String sobrenome;
 	private Date datanascimento;
 	private String endereco;
+	private String nomemae;
 	
 	public String getNome() {
 		return nome;
@@ -32,5 +33,13 @@ public class Pessoa {
 	public void setEndereco(String endereco) {
 		this.endereco = endereco;
 	}
+	public String getNomemae() {
+		return nomemae;
+	}
+	public void setNomemae(String nomemae) {
+		this.nomemae = nomemae;
+	}
+	
+	
 	
 }	
